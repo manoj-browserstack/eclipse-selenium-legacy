@@ -27,10 +27,10 @@ public class BrowserStack {
 		// declare BrowserStack credentails as environment variables
 		final String USERNAME = (System.getenv("BROWSERSTACK_USERNAME") != null)
 				? System.getenv("BROWSERSTACK_USERNAME")
-				: "manojmasini_zSWCAF";
+				: "username";
 		final String AUTOMATE_KEY = (System.getenv("BROWSERSTACK_ACCESS_KEY") != null)
 				? System.getenv("BROWSERSTACK_ACCESS_KEY")
-				: "AcbuxQbzmhmAUk6S9EXu";
+				: "accesskey";
 		// declare remote URL in a variable
 		final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 		// intialize Selenium WebDriver
